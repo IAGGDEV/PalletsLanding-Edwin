@@ -1,0 +1,109 @@
+═══════════════════════════════════════════════════════════════
+  PALLETS PREMIUM - LANDING PAGE
+  Instrucciones para Ver en Localhost
+═══════════════════════════════════════════════════════════════
+
+📌 OPCIÓN 1: USAR EL ARCHIVO .BAT (MÁS FÁCIL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Busca el archivo: "INICIAR_SERVIDOR.bat" en esta carpeta
+2. Haz DOBLE CLICK en él
+3. Se abrirá una ventana negra (PowerShell)
+4. Espera a que diga "Serving HTTP on..."
+5. Abre tu navegador y ve a:
+   
+   👉 http://localhost:8080
+   
+6. Para detener: Cierra la ventana negra o presiona Ctrl+C
+
+
+📌 OPCIÓN 2: USAR POWERSHELL MANUALMENTE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Abre PowerShell (búscalo en el menú de Windows)
+2. Navega a la carpeta del proyecto:
+   
+   cd "C:\Users\IAGG2\OneDrive\PalletsLandings\PalletsLanding"
+
+3. Inicia el servidor:
+   
+   python -m http.server 8080
+
+4. Abre tu navegador y ve a:
+   
+   👉 http://localhost:8080
+
+
+📌 OPCIÓN 3: ABRIR DIRECTAMENTE EL ARCHIVO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ NOTA: Esta opción puede tener problemas con las rutas CSS/JS
+
+1. Busca el archivo "index.html" en esta carpeta
+2. Haz click derecho → Abrir con → Tu navegador favorito
+
+
+📌 VERIFICAR SI EL SERVIDOR FUNCIONA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Primero ve a: http://localhost:8080/test.html
+2. Si ves una caja negra con "Servidor Funcionando", ¡todo está bien!
+3. Entonces ve a: http://localhost:8080/index.html
+
+
+🔧 SOLUCIÓN DE PROBLEMAS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ Si sale error "python no se reconoce":
+   → Necesitas instalar Python desde: https://www.python.org/downloads/
+   → Al instalar, marca la casilla "Add Python to PATH"
+
+❌ Si el puerto 8080 está ocupado:
+   → Usa otro puerto: python -m http.server 8888
+   → Luego ve a: http://localhost:8888
+
+❌ Si la página está en blanco:
+   → Abre las herramientas de desarrollador (F12)
+   → Ve a la pestaña "Console" y revisa los errores
+   → Envíame una captura del error
+
+❌ Si los estilos no se cargan:
+   → Verifica que estés usando localhost, NO abriendo el archivo directamente
+   → Los navegadores bloquean archivos CSS/JS por seguridad
+
+
+📱 ARCHIVOS DEL PROYECTO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📄 index.html          → Página principal
+📄 test.html           → Página de prueba
+📄 INICIAR_SERVIDOR.bat → Inicia el servidor automáticamente
+📁 css/styles.css      → Todos los estilos
+📁 js/script.js        → Funcionalidad JavaScript
+📁 assets/images/      → Coloca aquí tus imágenes
+
+
+🌐 PUBLICAR ONLINE (GitHub Pages)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Ve a: https://github.com/IAGGDEV/PalletsLanding
+2. Click en "Settings"
+3. En el menú lateral: "Pages"
+4. En "Source" selecciona: main
+5. Click "Save"
+6. Tu sitio estará en: https://iaggdev.github.io/PalletsLanding/
+
+
+💡 PRÓXIMOS PASOS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. ✅ Verifica que el servidor funciona con test.html
+2. 📸 Agrega tus imágenes reales en assets/images/
+3. 📱 Configura tu número de WhatsApp en js/script.js
+4. 💰 Actualiza los precios en index.html
+5. 🚀 Publica en GitHub Pages
+
+
+═══════════════════════════════════════════════════════════════
+¿Necesitas ayuda? Avísame qué error específico te aparece
+═══════════════════════════════════════════════════════════════

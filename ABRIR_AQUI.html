@@ -68,26 +68,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
         }
 
-        .logo-icon {
-            width: 180px;
-            height: 180px;
+        .logo-complete {
+            max-width: 600px;
+            width: 100%;
+            height: auto;
             object-fit: contain;
-        }
-
-        .logo-text h1 {
-            font-size: 4rem;
-            font-weight: 900;
-            color: var(--black);
-            line-height: 0.9;
-            text-align: left;
-        }
-
-        .logo-text h1 span {
-            display: block;
         }
 
         .hero-banner {
@@ -355,18 +342,8 @@
 
         /* ========== Responsive ========== */
         @media (max-width: 768px) {
-            .logo {
-                flex-direction: column;
-            }
-            
-            .logo-icon {
-                width: 100px;
-                height: 100px;
-            }
-            
-            .logo-text h1 {
-                font-size: 2.5rem;
-                text-align: center;
+            .logo-complete {
+                max-width: 90%;
             }
             
             .hero-title {
@@ -398,40 +375,11 @@
         <div class="container">
             <div class="logo-container">
                 <div class="logo">
-                    <svg class="logo-icon" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Fondo amarillo del hexágono -->
-                        <path d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z" fill="#FFC107"/>
-                        
-                        <!-- Hexágono exterior negro -->
-                        <path d="M100 10 L180 55 L180 145 L100 190 L20 145 L20 55 Z" 
-                              fill="none" stroke="#000" stroke-width="14" stroke-linejoin="miter"/>
-                        
-                        <!-- Hexágono medio negro -->
-                        <path d="M100 35 L160 67 L160 133 L100 165 L40 133 L40 67 Z" 
-                              fill="none" stroke="#000" stroke-width="12" stroke-linejoin="miter"/>
-                        
-                        <!-- Caja/Paquete interior -->
-                        <g transform="translate(100,100)">
-                            <!-- Parte superior de la caja (tapa) -->
-                            <path d="M -30,-25 L 0,-40 L 30,-25 L 30,0 L 0,15 L -30,0 Z" 
-                                  fill="#000" stroke="#000" stroke-width="2"/>
-                            
-                            <!-- Lado izquierdo de la caja -->
-                            <path d="M -30,0 L -30,30 L 0,45 L 0,15 Z" 
-                                  fill="#000" opacity="0.7"/>
-                            
-                            <!-- Lado derecho de la caja -->
-                            <path d="M 30,0 L 30,30 L 0,45 L 0,15 Z" 
-                                  fill="#000" opacity="0.5"/>
-                            
-                            <!-- Línea central decorativa -->
-                            <path d="M 0,-40 L 0,45" 
-                                  stroke="#FFC107" stroke-width="3"/>
-                        </g>
-                    </svg>
-                    <div class="logo-text">
-                        <h1>PALLETS<br><span>PREMIUM</span></h1>
-                    </div>
+                    <!-- Reemplaza la URL con tu logo subido a Imgur -->
+                    <img src="https://i.imgur.com/LOGO_AQUI.png" 
+                         alt="Pallets Premium Logo" 
+                         class="logo-complete"
+                         onerror="this.style.display='block'; this.alt='⚠️ Por favor sube tu logo a Imgur y actualiza la URL'">
                 </div>
             </div>
             

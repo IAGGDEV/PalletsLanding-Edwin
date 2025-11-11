@@ -36,7 +36,12 @@
 
         body {
             font-family: 'Poppins', Arial, sans-serif;
-            background-color: var(--primary-yellow);
+            background-color: #f8f8f8;
+            background-image: 
+                url('data:image/svg+xml;utf8,<svg width="200" height="173" viewBox="0 0 200 173" xmlns="http://www.w3.org/2000/svg"><g><path d="M100 17 L175 60 L175 145 L100 188 L25 145 L25 60 Z" fill="none" stroke="%23d8d8d8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path d="M100 34 L160 70 L160 135 L100 171 L40 135 L40 70 Z" fill="none" stroke="%23e5e5e5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g></svg>');
+            background-repeat: repeat;
+            background-size: 150px auto;
+            background-position: 0 0;
             color: var(--text-black);
             line-height: 1.6;
             overflow-x: hidden;
@@ -50,7 +55,7 @@
 
         /* ========== Hero Section ========== */
         .hero-section {
-            background-color: var(--primary-yellow);
+            background-color: transparent;
             padding: 60px 20px 40px;
             text-align: center;
         }
@@ -111,16 +116,17 @@
         /* ========== Store Section ========== */
         .store-section {
             padding: 40px 20px;
-            background-color: var(--primary-yellow);
+            background-color: transparent;
         }
 
         .store-image {
             max-width: 900px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 20px;
             text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .store-image p {
@@ -131,7 +137,7 @@
 
         /* ========== Season Section ========== */
         .season-section {
-            background-color: var(--primary-yellow);
+            background-color: transparent;
             padding: 40px 20px;
             text-align: center;
         }
@@ -237,7 +243,7 @@
 
         /* ========== Products Section ========== */
         .products-section {
-            background-color: var(--primary-yellow);
+            background-color: transparent;
             padding: 60px 20px;
             text-align: center;
         }
@@ -246,8 +252,9 @@
             max-width: 700px;
             margin: 0 auto 40px;
             padding: 20px;
-            background-color: #f0f0f0;
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
         }
 
         .products-image p {

@@ -155,3 +155,6 @@ Repositorio: https://github.com/IAGGDEV/PalletsLanding
 Vercel debe detectar automáticamente los cambios en 1-2 minutos.
 
 ═══════════════════════════════════════════════════════════════════
+
+
+

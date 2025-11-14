@@ -1,6 +1,9 @@
-# Pallets Premium - Landing Page
+# Pallets Premium - Landing Page Edwin
 
-Landing page profesional para Pallets Premium - Venta de ropa americana premium.
+Landing page personalizada para Edwin - Pallets Premium - Venta de ropa americana premium.
+
+## 👤 Vendedor
+**Edwin** - WhatsApp: [+52 1 664 319 1946](https://wa.me/+5216643191946)
 
 ## 🚀 Características
 
@@ -76,14 +79,16 @@ La landing page está optimizada para:
 
 ## ⚙️ Configuración de WhatsApp
 
-Para configurar los botones de WhatsApp, edita el archivo `js/script.js`:
+✅ **Ya configurado para Edwin**
+- Número WhatsApp: `+52 1 664 319 1946`
+- Todos los botones redirigen correctamente al número de Edwin
+- Mensaje automático personalizado incluido
+
+Para cambiar el número de WhatsApp, edita el archivo `js/script.js`:
 
 ```javascript
-// Línea 44
-const phoneNumber = '52XXXXXXXXXX'; // Reemplaza con tu número
-
-// Línea 50
-const groupURL = 'https://chat.whatsapp.com/XXXXXXXXXXXXX'; // Link del grupo
+// Línea 45
+const phoneNumber = '5216643191946'; // Número actual de Edwin
 ```
 
 ## 🖼️ Agregar Imágenes Reales
@@ -133,11 +138,11 @@ npm i -g vercel
 vercel
 ```
 
-## 📞 Soporte
+## 📞 Contacto
 
-Para más información, contacta:
-- WhatsApp: [Número a configurar]
-- Email: info@palletspremium.com
+Para más información sobre Pallets Premium:
+- **WhatsApp Edwin:** [+52 1 664 319 1946](https://wa.me/+5216643191946)
+- **Email:** info@palletspremium.com
 
 ## 📄 Licencia
 

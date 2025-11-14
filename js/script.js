@@ -41,9 +41,9 @@ function currentTestimonial(index) {
 
 // ========== Funciones de WhatsApp ==========
 function contactWhatsApp() {
-    // Reemplaza este número con el número real de WhatsApp
-    const phoneNumber = '52XXXXXXXXXX'; // Formato: código país + número (sin +, espacios ni guiones)
-    const message = encodeURIComponent('¡Hola! Me interesa obtener más información sobre Pallets Premium.');
+    // Número de WhatsApp de Edwin
+    const phoneNumber = '5216643191946'; // Formato: código país + número (sin +, espacios ni guiones)
+    const message = encodeURIComponent('¡Hola! Me interesa obtener más información sobre Pallets Premium. Quiero hablar con Edwin.');
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappURL, '_blank');
 }
